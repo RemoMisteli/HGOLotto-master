@@ -1,81 +1,81 @@
 gangNr,preisNr,text,typ
-1,1,200 Fr,normal
-1,2,150 Fr,normal
-1,3,120 Fr,normal
-1,4,80 Fr,normal
-1,5,50 Fr,normal
-2,1,200 Fr,normal
-2,2,150 Fr,normal
-2,3,120 Fr,normal
-2,4,80 Fr,normal
-2,5,50 Fr,normal
-3,1,100 Fr,super
-3,2,200 Fr,super
-3,3,700 Fr,super
-4,1,100 Fr,super
-4,2,200 Fr,super
-4,3,1000 Fr,super
-5,1,200 Fr,normal
-5,2,150 Fr,normal
-5,3,120 Fr,normal
-5,4,80 Fr,normal
-5,5,50 Fr,normal
-6,1,200 Fr,pause
-6,2,150 Fr,pause
-6,3,120 Fr,pause
-6,4,80 Fr,pause
-6,5,50 Fr,pause
-7,1,100 Fr,super
-7,2,200 Fr,super
-7,3,700 Fr,super
-8,1,100 Fr,super
-8,2,200 Fr,super
-8,3,1000 Fr,super
-9,1,200 Fr,normal
-9,2,150 Fr,normal
-9,3,120 Fr,normal
-9,4,80 Fr,normal
-9,5,50 Fr,normal
-10,1,200 Fr,normal
-10,2,150 Fr,normal
-10,3,120 Fr,normal
-10,4,80 Fr,normal
-10,5,50 Fr,normal
-11,1,100 Fr,super
-11,2,200 Fr,super
-11,3,700 Fr,super
-12,1,100 Fr,super
-12,2,200 Fr,super
-12,3,1000 Fr,super
-13,1,200 Fr,pause
-13,2,150 Fr,pause
-13,3,120 Fr,pause
-13,4,80 Fr,pause
-13,5,50 Fr,pause
-14,1,200 Fr,normal
-14,2,150 Fr,noarmal
-14,3,120 Fr,normal
-14,4,80 Fr,normal
-14,5,50 Fr,normal
-15,1,100 Fr,super
-15,2,200 Fr,super
-15,3,700 Fr,super
-16,1,100 Fr,super
-16,2,200 Fr,super
-16,3,1000 Fr,super
-17,1,200 Fr,normal
-17,2,150 Fr,normal
-17,3,120 Fr,normal
-17,4,80 Fr,normal
-17,5,50 Fr,normal
-18,1,200 Fr,normal
-18,2,150 Fr,normal
-18,3,120 Fr,normal
-18,4,80 Fr,normal
-18,5,50 Fr,normal
-19,1,100 Fr,super
-19,2,200 Fr,super
-19,3,700 Fr,super
-20,1,100 Fr,super
-20,2,200 Fr,super
-20,3,1000 Fr,super
+1,1,1.Reihe 100 Fr,super
+1,2,2.Reihe 200 Fr,super
+1,3,ganze Karte 700 Fr,super
+2,1,1.Reihe 100 Fr,super
+2,2,2.Reihe 200 Fr,super
+2,3,ganze Karte 1000 Fr,super
+3,1,Preis 200 Fr,normal
+3,2,Preis 150 Fr,normal
+3,3,Preis 120 Fr,normal
+3,4,Preis 80 Fr,normal
+3,5,Preis 50 Fr,normal
+4,1,Preis 200 Fr,normal
+4,2,Preis 150 Fr,normal
+4,3,Preis 120 Fr,normal
+4,4,Preis 80 Fr,normal
+4,5,Preis 50 Fr,normal
+5,1,1.Reihe 100 Fr,super
+5,2,2.Reihe 200 Fr,super
+5,3,ganze Karte 700 Fr,super
+6,1,1.Reihe 100 Fr,super
+6,2,2.Reihe 200 Fr,super
+6,3,ganze Karte 1000 Fr,super
+7,1,Preis 200 Fr,pause
+7,2,Preis 150 Fr,pause
+7,3,Preis 120 Fr,pause
+7,4,Preis 80 Fr,pause
+7,5,Preis 50 Fr,pause
+8,1,Preis 200 Fr,normal
+8,2,Preis 150 Fr,normal
+8,3,Preis 120 Fr,normal
+8,4,Preis 80 Fr,normal
+8,5,Preis 50 Fr,normal
+9,1,1.Reihe 100 Fr,super
+9,2,2.Reihe 200 Fr,super
+9,3,ganze Karte 700 Fr,super
+10,1,1.Reihe 100 Fr,super
+10,2,2.Reihe 200 Fr,super
+10,3,ganze Karte 1000 Fr,super
+11,1,Preis 200 Fr,normal
+11,2,Preis 150 Fr,normal
+11,3,Preis 120 Fr,normal
+11,4,Preis 80 Fr,normal
+11,5,Preis 50 Fr,normal
+12,1,Preis 200 Fr,normal
+12,2,Preis 150 Fr,normal
+12,3,Preis 120 Fr,normal
+12,4,Preis 80 Fr,normal
+12,5,Preis 50 Fr,normal
+13,1,1.Reihe 100 Fr,super
+13,2,2.Reihe 200 Fr,super
+13,3,ganze Karte 700 Fr,super
+14,1,1.Reihe 100 Fr,superpause
+14,2,2.Reihe 200 Fr,superpause
+14,3,ganze Karte 1000 Fr,superpause
+15,1,Preis 200 Fr,normal
+15,2,Preis 150 Fr,normal
+15,3,Preis 120 Fr,normal
+15,4,Preis 80 Fr,normal
+15,5,Preis 50 Fr,normal
+16,1,Preis 200 Fr,normal
+16,2,Preis 150 Fr,normal
+16,3,Preis 120 Fr,normal
+16,4,Preis 80 Fr,normal
+16,5,Preis 50 Fr,normal
+17,1,1.Reihe 100 Fr,super
+17,2,2.Reihe 200 Fr,super
+17,3,ganze Karte 700 Fr,super
+18,1,1.Reihe 100 Fr,super
+18,2,2.Reihe 200 Fr,super
+18,3,ganze Karte 1000 Fr,super
+19,1,Preis 200 Fr,normal
+19,2,Preis 150 Fr,normal
+19,3,Preis 120 Fr,normal
+19,4,Preis 80 Fr,normal
+19,5,Preis 50 Fr,normal
+20,1,Preis 200 Fr,normal
+20,2,Preis 150 Fr,normal
+20,3,Preis 120 Fr,normal
+20,4,Preis 80 Fr,normal
+20,5,Preis 50 Fr,normal
