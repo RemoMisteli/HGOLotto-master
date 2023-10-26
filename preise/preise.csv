@@ -1,81 +1,81 @@
-gangNr,preisNr,text,typ
-1,1,ganze Karte 700 Fr,super
-1,2,2.Reihe 200 Fr,super
-1,3,1.Reihe 100 Fr,super
-2,3,ganze Karte 1000 Fr,super
-2,2,2.Reihe 200 Fr,super
-2,1,1.Reihe 100 Fr,super
-3,1,Preis 200 Fr,normal
-3,2,Preis 150 Fr,normal
-3,3,Preis 120 Fr,normal
-3,4,Preis 80 Fr,normal
-3,5,Preis 50 Fr,normal
-4,1,Preis 200 Fr,normal
-4,2,Preis 150 Fr,normal
-4,3,Preis 120 Fr,normal
-4,4,Preis 80 Fr,normal
-4,5,Preis 50 Fr,normal
-5,1,ganze Karte 700 Fr,super
-5,2,2.Reihe 200 Fr,super
-5,3,1.Reihe 100 Fr,super
-6,3,ganze Karte 1000 Fr,super
-6,2,2.Reihe 200 Fr,super
-6,1,1.Reihe 100 Fr,super
-7,1,Preis 200 Fr,pause
-7,2,Preis 150 Fr,pause
-7,3,Preis 120 Fr,pause
-7,4,Preis 80 Fr,pause
-7,5,Preis 50 Fr,pause
-8,1,Preis 200 Fr,normal
-8,2,Preis 150 Fr,normal
-8,3,Preis 120 Fr,normal
-8,4,Preis 80 Fr,normal
-8,5,Preis 50 Fr,normal
-9,1,ganze Karte 700 Fr,super
-9,2,2.Reihe 200 Fr,super
-9,3,1.Reihe 100 Fr,super
-10,3,ganze Karte 1000 Fr,super
-10,2,2.Reihe 200 Fr,super
-10,1,1.Reihe 100 Fr,super
-11,1,Preis 200 Fr,normal
-11,2,Preis 150 Fr,normal
-11,3,Preis 120 Fr,normal
-1,4,Preis 80 Fr,normal
-11,5,Preis 50 Fr,normal
-12,1,Preis 200 Fr,normal
-12,2,Preis 150 Fr,normal
-12,3,Preis 120 Fr,normal
-12,4,Preis 80 Fr,normal
-12,5,Preis 50 Fr,normal
-13,1,ganze Karte 700 Fr,super
-13,2,2.Reihe 200 Fr,super
-13,3,1.Reihe 100 Fr,super
-14,3,ganze Karte 1000 Fr,superpause
-14,2,2.Reihe 200 Fr,superpause
-14,1,1.Reihe 100 Fr,superpause
-15,1,Preis 200 Fr,normal
-15,2,Preis 150 Fr,normal
-15,3,Preis 120 Fr,normal
-15,4,Preis 80 Fr,normal
-15,5,Preis 50 Fr,normal
-16,1,Preis 200 Fr,normal
-16,2,Preis 150 Fr,normal
-16,3,Preis 120 Fr,normal
-16,4,Preis 80 Fr,normal
-16,5,Preis 50 Fr,normal
-17,1,ganze Karte 700 Fr,super
-17,2,2.Reihe 200 Fr,super
-17,3,1.Reihe 100 Fr,super
-18,3,ganze Karte 1000 Fr,super
-18,2,2.Reihe 200 Fr,super
-18,1,1.Reihe 100 Fr,super
-19,1,Preis 200 Fr,normal
-19,2,Preis 150 Fr,normal
-19,3,Preis 120 Fr,normal
-19,4,Preis 80 Fr,normal
-19,5,Preis 50 Fr,normal
-20,1,Preis 200 Fr,normal
-20,2,Preis 150 Fr,normal
-20,3,Preis 120 Fr,normal
-20,4,Preis 80 Fr,normal
-20,5,Preis 50 Fr,normal
+gangNr,preisNr,text,preis,typ
+1,1,ganze Karte,700.-,super
+1,2,2 Reihen,200.-,super
+1,3,1 Reihe,100.-,super
+2,1,ganze Karte,1000.-,super
+2,2,2 Reihen,200.-,super
+2,3,1 Reihe,100.-,super
+3,1,Preis,200.-,normal
+3,2,Preis,150.-,normal
+3,3,Preis,120.-,normal
+3,4,Preis,80.-,normal
+3,5,Preis,50.-,normal
+4,1,Preis,200.-,normal
+4,2,Preis,150.-,normal
+4,3,Preis,120.-,normal
+4,4,Preis,80.-,normal
+4,5,Preis,50.-,normal
+5,1,ganze Karte,700.-,super
+5,2,2 Reihen,200.-,super
+5,3,1 Reihe,100.-,super
+6,1,ganze Karte,1000.-,super
+6,2,2 Reihen,200.-,super
+6,2,1 Reihe,100.-,super
+7,1,Preis,200.-,pause
+7,2,Preis,150.-,pause
+7,3,Preis,120.-,pause
+7,4,Preis,80.-,pause
+7,5,Preis,50.-,pause
+8,1,Preis,200.-,normal
+8,2,Preis,150.-,normal
+8,3,Preis,120.-,normal
+8,4,Preis,80.-,normal
+8,5,Preis,50.-,normal
+9,1,ganze Karte,700.-,super
+9,2,2 Reihen,200.-,super
+9,3,1 Reihe,100.-,super
+10,1,ganze Karte,1000.-,super
+10,2,2 Reihen,200.-,super
+10,2,1 Reihe,100.-,super
+11,1,Preis,200.-,normal
+11,2,Preis,150.-,normal
+11,3,Preis,120.-,normal
+11,4,Preis,80.-,normal
+11,5,Preis,50.-,normal
+12,1,Preis,200.-,normal
+12,2,Preis,150.-,normal
+12,3,Preis,120.-,normal
+12,4,Preis,80.-,normal
+12,5,Preis,50.-,normal
+13,1,ganze Karte,700.-,super
+13,2,2 Reihen,200.-,super
+13,3,1 Reihe,100.-,super
+14,1,ganze Karte,1000.-,superpause
+14,2,2 Reihen,200.-,superpause
+14,3,1 Reihe,100.-,superpause
+15,1,Preis,200.-,normal
+15,2,Preis,150.-,normal
+15,3,Preis,120.-,normal
+15,4,Preis,80.-,normal
+15,5,Preis,50.-,normal
+16,1,Preis,200.-,normal
+16,2,Preis,150.-,normal
+16,3,Preis,120.-,normal
+16,4,Preis,80.-,normal
+16,5,Preis,50.-,normal
+17,1,ganze Karte,700.-,super
+17,2,2 Reihen,200.-,super
+17,3,1 Reihe,100.-,super
+18,1,ganze Karte,1000.-,super
+18,2,2 Reihen,200.-,super
+18,3,1 Reihe,100.-,super
+19,1,Preis,200.-,normal
+19,2,Preis,150.-,normal
+19,3,Preis,120.-,normal
+19,4,Preis,80.-,normal
+19,5,Preis,50.-,normal
+20,1,Preis,200.-,normal
+20,2,Preis,150.-,normal
+20,3,Preis,120.-,normal
+20,4,Preis,80.-,normal
+20,5,Preis,50.-,normal

@@ -12,7 +12,7 @@ h1 {
 .pause{
 margin: 0px;
 text-align: center;
-font-size: 20px;
+font-size: 40px;
 }
 
 #gangSide,
@@ -38,7 +38,16 @@ font-size: 20px;
   
 }
 .price {
-  padding-left: 70px;
+  padding-left: 0px;
+  width: 100%;
+  padding-right: 40px;
+}
+
+.tableSpacing{
+  padding-right: 70px;
+}
+.priceInTable{
+  text-align: right;
 }
 
 html {

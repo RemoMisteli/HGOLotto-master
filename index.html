@@ -24,19 +24,21 @@
 </body>
 <script>
 /*
-gangNr,preisNr,text,typ
-1,1,200 Fr,normal
+gangNr,preisNr,text,preis,typ
+1,1,1 reihe,200,normal
 
 gangNr=> nummer vom Gan
 preisNr=> ist es der 1 2 3 Preis
-text=> was angezeigt wird zu gewinne
+text=> was erreicht werden muss für preis
+preis=> der preis der gewonnen wird 
+
 typ=> welche art gang es ist (pause,normal,super,superpause)
 
 */
     const myForm = document.getElementById("myForm");
     const csvFile = document.getElementById("csvFile");
     var numberDisplayedString = "00";
-    var gangNr = 9
+    var gangNr = 1
     var gange;
 
     function updateTitel(variant = "normal") {
@@ -59,7 +61,7 @@ typ=> welche art gang es ist (pause,normal,super,superpause)
         }
          else if (variant === "finished") {
             titelhtml = "<h1>Danke fürs Spielen</h1>"+
-                        "<div class='testEnde   '>Der nächste Lottomach ist im Frühling 2023</div>"
+                        "<div class='testEnde   '>Der nächste Lottomatch ist im Frühling 2024</div>"
 
         }
 
@@ -94,11 +96,13 @@ typ=> welche art gang es ist (pause,normal,super,superpause)
 
 
         gange = groubetGang;
+
         updateTitel();
         displayGang(gangNr)
         //  return jsonObj;
     }
     myForm.addEventListener("submit", function (e) {
+        
         e.preventDefault();
         const input = csvFile.files[0];
         const reader = new FileReader();
@@ -107,6 +111,7 @@ typ=> welche art gang es ist (pause,normal,super,superpause)
         reader.onload = function (e) {
             const text = e.target.result;
             stringToArray(text)// this variable isent set corectly yet
+            
 
         };
         reader.readAsText(input);
@@ -119,10 +124,12 @@ typ=> welche art gang es ist (pause,normal,super,superpause)
         var gangSide = document.getElementById("gangSide");
         gangSide.innerHTML = ''
         if (gange[ganNrTodisplay] !== undefined) {
-            var priceListHtmal = "";
+            var priceListHtmal = "<table class='price'>";
             gange[ganNrTodisplay].forEach(element => {
+                
                 priceListHtmal += createGagPriceHtmlString(element);
             });
+            priceListHtmal+="</table>"
             gangSide.innerHTML = priceListHtmal;
 
             updateTitel(gange[ganNrTodisplay][0]["typ"]);
@@ -141,9 +148,15 @@ typ=> welche art gang es ist (pause,normal,super,superpause)
 
     function createGagPriceHtmlString(price) {
 
-        return "<div class='price' id=price" + price.preisNr + ">" +
+
+        return "<tr  id=price" + price.preisNr + ">" +
+           "<td class='tableSpacing'>"+
             price.preisNr + ". " + price.text +
-            "</div>"
+            "</td>"+
+            "<td class='priceInTable'>"+
+             price.preis +
+            "</td>"
+            "</tr>"
 
     }
 
